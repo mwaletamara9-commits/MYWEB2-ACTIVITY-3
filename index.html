@@ -1,0 +1,96 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Portfolio</title>
+<link rel="stylesheet" href="css/styles.css">
+<script src="js/script.js" defer></script>
+</head>
+<body>
+
+<header>
+<p>Tamara Mwale 2024071737 | Web Technologies - ICT251</p>
+<nav>
+<a href="#about">About</a>
+<a href="#hobbies">Hobbies</a>
+<a href="#gallery">Gallery</a>
+<a href="#media">Media</a>
+<a href="#schedule">Schedule</a>
+<a href="#contact">Contact</a>
+</nav>
+<a href="https://zicta.com" target="_blank">ZICTA Schools</a>
+<button id="menu-toggle">≡ Menu</button>
+<button id="theme-toggle">Dark Mode</button>
+</header>
+
+<section id="about" class="content-section">
+<h2>About Me</h2>
+<button id="details-toggle">Show Details</button>
+<div id="more-details" style="display:none;">
+<p>Student details about me. ICT student passionate about web development.</p>
+<p>Hello! My name is Tamara. I am an ICT student passionate about learning web technologies.</p>
+</div>
+</section>
+
+<section id="hobbies" class="content-section">
+<h2>My Hobbies</h2>
+<ul>
+<li>Listening to Music</li>
+<li>Reading</li>
+<li>Coding</li>
+</ul>
+</section>
+
+<section id="gallery" class="content-section">
+<h2>Gallery</h2>
+<img src="images/photo1.jpg" alt="Tamara Photo 1">
+<img src="images/photo2.jpg" alt="Tamara Photo 2">
+<img src="images/photo3.jpg" alt="Tamara Photo 3">
+</section>
+
+<section id="media" class="content-section">
+<h2>Media</h2>
+<h3>Video Introduction</h3>
+<video controls width="100%">
+<source src="videos/intro.mp4" type="video/mp4">
+Your browser does not support video.
+</video>
+
+<h3>Audio Introduction</h3>
+<audio controls>
+<source src="videos/audio.mp3" type="audio/mpeg">
+Your browser does not support audio.
+</audio>
+</section>
+
+<section id="schedule" class="content-section">
+<h2>Weekly Schedule</h2>
+<table>
+<tr><th>Day</th><th>Activity</th><th>Time</th></tr>
+<tr><td>Monday</td><td>ICT251 Lecture</td><td>10:00 - 12:00</td></tr>
+<tr><td>Tuesday</td><td>Study</td><td>14:00 - 16:00</td></tr>
+<tr><td>Wednesday</td><td>Lab</td><td>09:00 - 11:00</td></tr>
+<tr><td>Thursday</td><td>Assignment</td><td>10:00 - 12:00</td></tr>
+</table>
+</section>
+
+<section id="contact" class="content-section">
+<h2>Contact Me</h2>
+<form id="contact-form">
+<label>Name: <input type="text" id="name"></label><br>
+<label>Email: <input type="email" id="email"></label><br>
+<label>Message: <textarea id="message"></textarea></label><br>
+<button type="submit">Send</button>
+<p id="form-error" style="color:red;"></p>
+<div id="form-preview"></div>
+</form>
+</section>
+
+<footer>
+<p>&copy; 2026 Tamara. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
